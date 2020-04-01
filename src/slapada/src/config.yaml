@@ -1,0 +1,74 @@
+---
+game:
+  type: game
+  title: Slap
+  tick: 60
+
+  window:
+    type: window
+    width: 800
+    height: 600
+    color: black
+
+  ui:
+    - background:
+        name: fundo
+        type: background
+        tick: 3
+        width: 800
+        height: 600
+        images:
+          idle: 
+            path: 
+              - ../resources/ui/background.jpg
+        dynamics: 
+          type: static
+          position:
+            x: 0
+            y: 0
+    
+    - button1:
+        type: button
+        name: Attack
+        tick: 3
+        width: 110
+        height: 80
+        images:
+          idle: 
+            path: 
+              - ../resources/ui/button1.png
+          # hover:
+          #   path: 
+          #     - resources/ui/button1_hover.png
+          # pressed:
+          #   path: 
+          #     - resources/ui/button1_pressed.png
+        dynamics: 
+          type: static
+          position:
+            x: 255
+            y: 500
+    
+    - button2:
+        type: button
+        name: Carinho, Carinho
+        tick: 3
+        width: 100
+        height: 80
+        images:
+          idle: 
+            path: 
+              - ../resources/ui/button2.png
+          # hover:
+          #   path: 
+          #     - resources/ui/button2_hover.png
+          # pressed:
+          #   path: 
+          #     - resources/ui/button2_pressed.png
+        dynamics: 
+          type: static
+          position:
+            x: 450
+            y: 500
+
+          

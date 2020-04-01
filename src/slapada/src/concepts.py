@@ -1,0 +1,2 @@
+class Creatable(object):
+    pass
